@@ -547,3 +547,22 @@ a:hover .text {
     gap: 50px;
   }
 }
+
+@media(max-width:600px){
+  .about_hero{
+    display: grid;
+  }
+  .hero_img-box{
+    grid-row: 1;
+    width: 80%;
+  }
+}
+
+@media(max-width:480px){
+  .hero_img-box{
+  height: 385px;
+  }
+  .hero_img{
+    width: 370px;
+  }
+}
